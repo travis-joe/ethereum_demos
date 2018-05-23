@@ -29,11 +29,8 @@ contract Lottery {
         require(msg.sender == manager);
         _;
     }
-    function returnEntries() onlyManagerCanCall {
 
-    }
-
-    function getPlayers() public view returns (address[]){
+    function getPlayers() public view returns (address[]) {
         return players;
     }
 }
