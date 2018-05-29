@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import Layout from "../../components/Layout";
 import { Card, Form, Button, Input, Message, Grid } from "semantic-ui-react";
 import Campaign from "../../ethereum/campaign";
-import { Link, Router } from "../../routes";
 import web3 from "../../ethereum/web3";
+import { Link, Router } from "../../routes";
 import ContributeForm from "../../components/ContributeForm";
 
 class CampaignShow extends Component {
